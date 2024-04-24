@@ -1,5 +1,13 @@
+import Navigation from '../Navigation/Navigation';
+import Router from '../Router/Router';
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Navigation />
+      <Router />
+    </>
+  );
 };
 
 export default App;

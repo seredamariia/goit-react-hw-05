@@ -1,0 +1,35 @@
+.section {
+    position: relative;
+    padding: 20px;
+}
+
+.container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userScore {
+    color: orangered;
+    padding: 10px 0px;
+}
+
+.genresList {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.overview {
+    margin-bottom: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-top: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}

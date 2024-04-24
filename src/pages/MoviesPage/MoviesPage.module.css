@@ -1,0 +1,15 @@
+.moviesSearch {
+    position: relative;
+}
+
+.btnPaginationContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.btnPagination:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

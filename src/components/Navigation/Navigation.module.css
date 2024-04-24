@@ -1,0 +1,31 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.headerNav {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 20px;
+    padding: 20px;
+}
+
+.navLink {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-right: 20px;
+}
+
+.navLinkActive {
+    color: orangered;
+}
+
+.navLink:hover {
+    color: fuchsia;
+}
